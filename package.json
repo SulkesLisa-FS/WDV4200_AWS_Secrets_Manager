@@ -1,0 +1,24 @@
+{
+  "name": "wdv4200_aws_secrets_manager",
+  "version": "1.0.0",
+  "description": "An extension of Scenario 3 , Non Shred Files, from the Node Secrets assignment.",
+  "homepage": "https://github.com/SulkesLisa-FS/WDV4200_AWS_Secrets_Manager#readme",
+  "bugs": {
+    "url": "https://github.com/SulkesLisa-FS/WDV4200_AWS_Secrets_Manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SulkesLisa-FS/WDV4200_AWS_Secrets_Manager.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+   },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.1037.0",
+    "dotenv": "^17.4.2"
+  }
+}
