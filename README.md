@@ -33,7 +33,7 @@ error.
 
 3. Verify AWS CLI is configured with your credentials by running: 
 
-     aws sts get-caller-identity
+        aws sts get-caller-identity
 
     **Expected result:** JSON with your account number, user ID, and an ARN.
 
@@ -81,7 +81,7 @@ Once you cd into the application root directory follow these steps:
 There are two "secret related errors."
 
 1. ERROR: App could not load secrets. <br>
-   This error means there was an issue retrieving secrets from the AWS Secrets Manager
+   This error means there was an issue retrieving secrets from the AWS Secrets Manager.
 
 2. ERROR: Missing required secrets. <br>
    This error means AWS secrets did load but something in the keys may be wrong. <br>
